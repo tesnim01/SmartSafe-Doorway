@@ -112,7 +112,7 @@ export default function Edit() {
             <div className="fieldsColumn">
               <div className="fieldRow">
                 <label htmlFor="studentId" className="fieldLabel">
-                  Student ID
+                  User ID
                 </label>
                 <input
                   type="text"
@@ -151,7 +151,7 @@ export default function Edit() {
               </div>
               <div className="fieldRow">
                 <label htmlFor="course" className="fieldLabel">
-                  Course
+                  Profession
                 </label>
                 <input
                   type="text"

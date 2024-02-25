@@ -72,7 +72,7 @@ export default function Delete() {
     <>
       <Header />
       <div className="header">
-        <h1>Delete Student</h1>
+        <h1>Delete User</h1>
       </div>
       <section className="managePage">
         <form className="editForm" onSubmit={handleSubmit}>
@@ -90,7 +90,7 @@ export default function Delete() {
             <div className="fieldsColumn">
               <div className="fieldRow">
                 <label htmlFor="studentId" className="fieldLabel">
-                  Student ID
+                  User ID
                 </label>
                 <input
                   type="text"
@@ -129,7 +129,7 @@ export default function Delete() {
               </div>
               <div className="fieldRow">
                 <label htmlFor="course" className="fieldLabel">
-                  Course
+                  Profession
                 </label>
                 <input
                   type="text"
