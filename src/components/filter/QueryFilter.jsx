@@ -22,7 +22,7 @@ export default function QueryFilter({ searchStudent, getStudents }) {
     <div className="filter">
       <div className="filterFields">
         <label htmlFor="studentId" className="filterLabel">
-          Student ID
+          User ID
         </label>
         <input
           name="studentId"
@@ -53,7 +53,7 @@ export default function QueryFilter({ searchStudent, getStudents }) {
             className="queryBtn"
             onClick={() => searchStudent(studentId, rfid)}
           >
-            Search Student
+            Search User
           </button>
           <button type="button" className="queryBtn" onClick={clearSearch}>
             Clear Search
@@ -63,7 +63,7 @@ export default function QueryFilter({ searchStudent, getStudents }) {
             className="queryBtn"
             onClick={() => navigate("/add")}
           >
-            Add Student
+            Add User
           </button>
         </div>
       </div>

@@ -35,7 +35,7 @@ export default function Delete() {
       setStudent(res.data);
     };
     getStudent();
-  }, []);
+  }, [id]);
 
   // Function to show or hide messages
   const showMessage = (show = false, type = "", msg = "") => {

@@ -4,7 +4,7 @@ import "./header.css";
 export default function Header() {
   return (
     <div className="projectHeader">
-      <h1>Students RFID System</h1>
+      <h1>SmartSafe Doorway</h1>
     </div>
   );
 }

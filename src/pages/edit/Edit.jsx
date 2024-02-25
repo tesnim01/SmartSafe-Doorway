@@ -37,7 +37,7 @@ export default function Edit() {
       setStudent(res.data);
     };
     getStudent();
-  }, []);
+  }, [id]);
 
   // Update our state object
   const updateStudent = (e) => {
