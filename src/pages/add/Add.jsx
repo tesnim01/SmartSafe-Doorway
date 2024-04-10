@@ -182,7 +182,7 @@ export default function Add() {
             <button
               type="button"
               className="bottomButton"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/users")}
             >
               Back
             </button>

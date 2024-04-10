@@ -3,10 +3,10 @@ import QueryFilter from "../../components/filter/QueryFilter";
 import Pagination from "../../components/pagination/Pagination";
 import Cards from "../../components/cards/Cards";
 import axios from "axios";
-import "./home.css";
+import "./users.css";
 import Header from "../../components/header/Header";
 
-export default function Home() {
+export default function Users() {
   // state variables
   const [students, setStudents] = useState([]);
   const [loading, setLoading] = useState(true);

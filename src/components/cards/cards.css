@@ -45,7 +45,7 @@
   width: 100%;
 }
 .cardBtn {
-  background-color: rgb(59, 59, 234);
+  background-color: rgb(47, 189, 255);
   padding: 10px;
   border: 0;
   color: white;
@@ -62,5 +62,4 @@
   display: inline-block;
   font-weight: bolder;
 }
-
 

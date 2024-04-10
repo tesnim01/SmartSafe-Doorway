@@ -1,21 +1,23 @@
-import Home from "./pages/home/Home";
+import Users from "./pages/users/Users";
 import Edit from "./pages/edit/Edit";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Delete from "./pages/delete/Delete";
 import Add from "./pages/add/Add";
+import AboutPage from "./pages/about/AboutPage";
 
 function App() {
   return (
     <main className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<AboutPage />} />
+          <Route path="/users" element={<Users />} />
           <Route path="/add" element={<Add />} />
           <Route path="/edit/:id" element={<Edit />} />
           <Route path="/delete/:id" element={<Delete />} />
         </Routes>
       </BrowserRouter>
-    </main>
+    </main> 
   );
 }
 

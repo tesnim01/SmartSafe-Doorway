@@ -1,0 +1,59 @@
+.each-slide {
+  position: relative;
+  width: 100%;
+  height: 550px; /* Set the height of each slide container */
+  float: left;
+ 
+}
+
+.each-slide > div {
+  background-size: cover; /* Ensure that the entire background image fits within the container */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.each-slide > div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 0.5 opacity */
+}
+.slide-title {
+  position: absolute;
+  top: 20%; /* Adjust as needed */
+  left: 5%; /* Adjust as needed */
+  color: white;
+  z-index: 999;
+  border: 2px;
+  border-color: aliceblue;
+}
+.slide-title >p{
+  font-size: large;
+  color:rgb(255, 255, 255,0.9);
+}
+.slide-title >h1{
+  color:rgb(255, 255, 255,0.9);
+}
+.login-square{
+  position: absolute;
+  top: 70%; /* Adjust as needed */
+  left: 35%; /* Adjust as needed */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color:rgb(255, 255, 255,0.8);
+  z-index: 999;
+  border: 2px solid aliceblue; /* Sets a solid black border with 2px width */
+  padding: 3px 30px;
+}
+
+.assets{
+  float: right;
+  width: 20%;
+  height: 550px;
+  background-color: #212529;
+}

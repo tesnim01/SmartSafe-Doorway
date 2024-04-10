@@ -21,13 +21,13 @@ export default function Cards({ students }) {
               <h3>{`${student.firstName} ${student.lastName}`}</h3>
               <div className="text">
                 <p>
-                  <span className="label">User ID:</span>
+                  <span className="label">Student ID:</span>
                 </p>
                 <p>
                   <span className="info">{student.studentId}</span>
                 </p>
                 <p>
-                  <span className="label">Profession:</span>
+                  <span className="label">Course:</span>
                 </p>
                 <p>
                   <span className="info">{student.course}</span>
