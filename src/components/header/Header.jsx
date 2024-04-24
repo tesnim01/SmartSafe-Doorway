@@ -31,7 +31,7 @@ const Header = ( ) => {
             )}
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/records">Records</NavLink>
             </li>
             <li>
               {isLoggedIn && location.pathname !== '/' && ( // Only show button if logged in and not on '/'

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './login.css';
 
+
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -36,11 +37,12 @@ const Login = () => {
     <div className='login'>
     <form onSubmit={handleSubmit} >
       <h2>Login</h2>
+      <div className='space'>
       <div className="form-group">
         <label htmlFor="username">Username :</label>
         <input
           type="text"
-          className="form-control"
+          className="form-controll"
           id="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
@@ -50,14 +52,15 @@ const Login = () => {
         <label htmlFor="password">Password :</label>
         <input
           type="password"
-          className="form-control"
+          className="form-controll"
           id="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
       </div>
-      {errorMessage && <div className="alert alert-danger">{errorMessage}</div>}
-      <button type="submit" className="btn btn-primary">Login</button>
+      </div>
+      {errorMessage && <div className="alert alert-danger custom-danger" role="alert">{errorMessage}</div>}
+      <button type="submit" className="btn btn-primary btn_custom">Login</button>
     </form>
     </div>
     </div>

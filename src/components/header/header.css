@@ -49,6 +49,7 @@ body {
 
 .nav-elements ul li:not(:last-child) {
   margin-right: 60px;
+  margin-top: 8px;
 }
 
 .nav-elements ul a {
@@ -75,4 +76,11 @@ body {
 }
 .logoutBtn{
   margin-top: 0;
+  padding: 8px 20px;
+  border-radius: 8px ;
+  color: aliceblue;
+  background-color: rgb(25, 168, 235);
+}
+.logoutBtn:hover{
+  background-color: rgb(25, 168, 235);
 }

@@ -1,0 +1,32 @@
+/* records.css */
+
+.records-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .records-table th,
+  .records-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .records-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .records-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .records-table tr:hover {
+    background-color: #ddd;
+  }
+  

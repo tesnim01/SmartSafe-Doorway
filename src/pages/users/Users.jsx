@@ -47,7 +47,7 @@ export default function Users() {
   // the jsx code that contains our components
   return (
     <section className="main">
-      {loading && <div>Loading page....</div>}
+      {loading }
       <Header />
       <QueryFilter searchStudent={searchStudent} getStudents={getStudents} />
       <Cards students={currentRecords} />

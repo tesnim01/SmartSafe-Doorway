@@ -6,7 +6,7 @@ export default function Cards({ students }) {
   return (
     <div className="cardsWrapper">
       <div className="cards">
-        {students.length === 0 && <p>No student(s) found</p>}
+        {students.length === 0 && <p>No User(s) found</p>}
         {students.map((student) => {
           return (
             <div key={student._id} className="card">
@@ -21,7 +21,7 @@ export default function Cards({ students }) {
               <h3>{`${student.firstName} ${student.lastName}`}</h3>
               <div className="text">
                 <p>
-                  <span className="label">Student ID:</span>
+                  <span className="label">User ID:</span>
                 </p>
                 <p>
                   <span className="info">{student.studentId}</span>
@@ -40,10 +40,10 @@ export default function Cards({ students }) {
                 </p>
               </div>
               <div className="btnContainer">
-                <Link to={`edit/${student._id}`} className="cardBtn m-top">
+                <Link to={`/edit/${student._id}`} className="cardBtn m-top">
                   Edit
                 </Link>
-                <Link to={`delete/${student._id}`} className="cardBtn m-top">
+                <Link to={`/delete/${student._id}`} className="cardBtn m-top">
                   Delete
                 </Link>
               </div>

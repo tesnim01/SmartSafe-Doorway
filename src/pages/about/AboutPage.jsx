@@ -12,7 +12,8 @@ import Login from './Login';
 const buttonStyle = {
     width: "10px",
     background: 'none',
-    border: '0px'
+    border: '0px',
+    display: 'none'
 };
 
 const properties = {
@@ -27,7 +28,7 @@ const AboutPage = () => {
     
     <div>
       <Header />
-      <div style={{ float: 'left', width: '80%',backgroundColor:'black'}}>
+      <div style={{ float: 'left', width: '60%'}}> 
         <Slide {...properties} >
           <div className="each-slide">
               <div style={{'backgroundImage': `url(${slide1})`}}>
@@ -51,14 +52,13 @@ const AboutPage = () => {
               Prevention
             </h1>
             <p>Your Safety Is Our Top Priority</p>
-            <p>We are taking extra precautions against COVID-19 {'\n'}
-              to help protect our staff and our world</p>
+            <p>We are taking extra precautions{'\n'} against COVID-19 {'\n'}
+              to help protect our {'\n'}staff and our world</p>
           </div>
-          <h2 className='login-square'>Login</h2>
+          <div className="assets">
+            <Login />
+          </div>
         </div>
-      <div className="assets">
-        <Login></Login>
-      </div>
     </div>
   );
 };

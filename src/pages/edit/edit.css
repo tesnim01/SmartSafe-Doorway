@@ -7,9 +7,7 @@
   /* overflow: scroll; */
   /* border: 1px solid red; */
 }
-.header{
-  margin: 10px 0;
-}
+
 .editForm {
   /* flex: 1; */
   /* max-width: 600px; */
@@ -18,6 +16,7 @@
   border: 1px solid #999;
   padding: 20px;
   width: 50vw;
+  margin-top: 0;
 }
 .fields{
   display: flex;
@@ -83,7 +82,7 @@
   border-radius: 50px;
   font-size: 1.2rem;
   padding: 0.5em;
-  background-color: rgb(59, 59, 234);
+  background-color: rgb(47, 189, 255);
   color: var(--white);
   margin-left: 5px;
   border: 0;
